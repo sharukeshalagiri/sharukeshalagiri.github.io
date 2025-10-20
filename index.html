@@ -1,68 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Sharukesh A</title>
+  <meta charset="utf-8">
+  <title>Sharukesh A</title>
 
-    <!-- Primary Meta Tags -->
-    <title>Sharukesh A | Website</title>
-    <meta name="title" content="Sharukesh A | Website">
-    <meta name="description" content="Personal Website for Sharukesh. Read to know more.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Sharukesh">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
-    <meta name="author" content="Sharukesh">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal website of Sharukesh — a space where code, ideas, and curiosity connect.">
+  <link rel="icon" href="/favicon.ico" type="image/png">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sharukesh.com/">
-    <meta property="og:title" content="Sharukesh A | Website">
-    <meta property="og:description" content="Personal Website for Sharukesh. Read to know more.">
-    <meta property="og:image" content="https://sharukesh.com/assets/img/banner/website_banner.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://sharukesh.com/">
-    <meta property="twitter:title" content="Sharukesh A | Website">
-    <meta property="twitter:description" content="Personal Website for Sharukesh. Read to know more.">
-    <meta property="twitter:image" content="https://sharukesh.com/assets/img/banner/website_banner.jpg">
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0b;
+      color: #fff;
+      font-family: 'Reem Kufi', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
 
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    .intro {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
 
-    <!-- Style Sheets -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/themes/indigo-white.css">
-    <!-- <link rel="stylesheet" href="assets/css/themes/red-white.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/themes/green-white.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/themes/grey-white.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/themes/white-indigo.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/themes/white-blue.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/themes/white-grey.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/themes/white-red.css"> -->
-    <!-- <link rel="stylesheet" href="assets/css/themes/yellow-black.css"> -->
+    .tagline {
+      font-family: 'Roboto', sans-serif;
+      color: #bfbfbf;
+      font-size: 1.3rem;
+    }
+
+    .icons-social {
+      display: flex;
+      gap: 25px;
+      margin-top: 30px;
+      justify-content: center;
+    }
+
+    .icons-social a {
+      width: 58px;
+      height: 58px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background: #fff;
+      color: #000;
+      font-size: 26px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .icons-social a:hover {
+      transform: translateY(-5px);
+    }
+
+    /* Keep your same colors */
+    .icons-social a.github { background: #fff; color: #000; }
+    .icons-social a.linkedin { background: #0077B5; color: #fff; }
+    .icons-social a.instagram { background: #E4405F; color: #fff; }
+    .icons-social a.gmail { background: #EA4335; display: flex; align-items: center; justify-content: center; }
+
+    .icons-social a.gmail svg {
+      width: 28px;
+      height: 28px;
+    }
+  </style>
 </head>
 
 <body>
-    <main>
-        <div class="intro">Sharukesh A 🚀</div>
-        <div class="tagline">Hello World!</div>
-        <div class="icons-social">
-            <a target="_blank" href="mailto:mail@sharukesh.com"><i class="far fa-envelope"></i></a>
-            <a target="_blank" href="https://instagram.com/sharuk_27806"><i class="fab fa-instagram"></i></i></a>
-        </div>
-    </main>
-</body>
+  <main>
+    <div class="intro">Sharukesh A 🚀</div>
+    <div class="tagline">Nothing to read here.</div>
 
+    <div class="icons-social">
+      <a class="github" href="https://github.com/sharukeshalagiri" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a class="linkedin" href="https://www.linkedin.com/in/sharukeshalagiri" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a class="instagram" href="https://instagram.com/sharuk_27806" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="gmail" href="mailto:mail@sharukesh.com" title="Gmail">
+        <!-- Proper Gmail logo that works locally -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+          <path fill="#fff" d="M4 8c-1.1 0-2 .9-2 2v28c0 1.1.9 2 2 2h40c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2H4z"/>
+          <path fill="#EA4335" d="M24 26 4 12v24c0 1.1.9 2 2 2h4V19l14 10 14-10v19h4c1.1 0 2-.9 2-2V12L24 26z"/>
+          <path fill="#FBBC05" d="M4 12 24 26l20-14H4z"/>
+          <path fill="#34A853" d="M24 26 4 12v24c0 1.1.9 2 2 2h4V19l14 10z" opacity=".15"/>
+        </svg>
+      </a>
+    </div>
+  </main>
+</body>
 </html>
