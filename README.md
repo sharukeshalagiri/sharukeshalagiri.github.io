@@ -14,8 +14,8 @@ My custom domain [**sharukesh.com**](https://sharukesh.com) points here,
 so any changes I push are deployed live instantly — no extra steps, no downtime.
 
 GitHub Pages site (sharukeshalagiri.github.io) is actually hosting the content.
+The custom domain (sharukesh.com) is just pointing to that GitHub Pages site via DNS (usually using a CNAME record).
 
-tHE custom domain (sharukesh.com) is just pointing to that GitHub Pages site via DNS (usually using a CNAME record).
 ---
 
 # 🧩 Tech Stack
